@@ -1,0 +1,145 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2874f0;
+    padding: 0.2em;
+    height: 56px;
+    font-weight: 500;
+    color: rgb(251, 251, 251);
+  }
+  
+  .brand-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+  }
+  
+  .logo {
+    width: 75px;
+    display: block;
+  }
+  
+  .plus-link {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 0.7em;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+  }
+  
+  .plus-link:hover {
+    text-decoration: underline;
+  }
+  
+  .plus-icon {
+    width: 10px;
+  }
+  
+  .plus {
+    color: #ffe500;
+    position: relative;
+    left: 1px;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    min-width: 300px;
+    margin-left: 0.8em;
+  }
+  
+  .search-input {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 70%;
+    outline: none;
+    padding-left: 1.5em;
+    padding-right: 1em;
+    font-size: 13px;
+    color: rgb(59, 59, 59);
+    background-color: rgb(251, 251, 251);
+    border: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-shadow: -2px 2px 4px -3px black;
+  }
+  
+  .submit-btn {
+    height: 70%;
+    padding-right: 1em;
+    padding-left: 0.5em;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    background-color: rgb(251, 251, 251);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 2px 2px 4px -3px black;
+    margin-right: 1.5em;
+  }
+  
+  .submit-btn:hover {
+    cursor: pointer;
+  }
+  
+  .login {
+    width: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 0.3em;
+    background-color: rgb(251, 251, 251);
+    border: 0px;
+    border-radius: 2px;
+    font-size: 1em;
+    color: #2874f0;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+  }
+  
+  .sellerPage {
+    width: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .seller-link {
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .services {
+    width: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  
+  .cart {
+    width: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    color: rgb(251, 251, 251);
+    cursor: pointer;
+  }
+  
+  .cart-img {
+    width: 1.5em;
+  }

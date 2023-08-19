@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+
+.products-n-offers {
+  margin: 0 0.5em;
+}
+
+.top-offers {
+  display: flex;
+  box-shadow: 1px 1px 5px -4px black;
+
+}
+
+.offer-banner {
+  width: 15%;
+  height: 360px;
+  background-image: url(/assets/backgroundimage-offer.webp);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.abc {
+  width: 100%;
+  height: 72%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+}
+
+.aabc {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.blue-btn {
+  border: 0px;
+  background-color: #2874f0;
+  color: white;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  padding: 0.8em 1.4em;
+  border-radius: 2px;
+  box-shadow: 0px 1px 4px -2px black;
+}
+
+.offer-products {
+  background-color: white;
+  overflow: hidden;
+  width: calc(100% - 30% - 0.8em);
+  margin-right: 0.8em;
+  display: flex;
+  position: relative;
+}
+
+.product {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1em;
+  cursor: pointer;
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.p-img-container {
+  width: 12.5em;
+}
+
+.product-img {
+  object-fit: contain;
+}
+
+.product-img:hover{
+  transform: scale(1.03);
+}
+
+.product-name {
+  font-weight: 500;
+  color: rgb(39, 39, 39);
+  
+}
+
+.discount {
+  padding-top: 0.5em;
+  color: rgb(17, 143, 17);
+}
+
+.pricing {
+  color: grey;
+  font-size: 0.9rem;
+  padding-top: 0.6em;
+}
+
+.offer-btn {
+  top: 35%;
+  cursor: pointer;
+}
+
+.side-ad {
+  width: 15%;
+  padding: 0.3em;
+  background-color: white;
+}
+
+.side-img {
+  width: 100%;
+  height: 100%;
+}
+
+.side-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* fashion-starts here */
+
+.fashion.top-offers {
+  margin-top: 0.6em;
+  width: 100%;
+}
+.fashion.offer-products {
+  width: 100%;
+  margin-right: 0px;
+}
+
+.posters {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6em;
+  margin-top: 0.6em;
+}
+
+.poster-img img {
+  width: 100%;
+  display: block;
+}
+
+
+.hide{
+  visibility: hidden;
+}
+
+
+
+@media screen and (max-width: 815px) {
+  nav {
+    font-size: 12px;
+  }
+  .plus-link {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .logo {
+    width: 70px;
+  }
+
+  .plus-link {
+    font-size: 10px;
+  }
+  .search-input {
+    height: 55%;
+    font-size: 11px;
+  }
+
+  .submit-btn {
+    height: 55%;
+  }
+
+  .search-icon {
+    width: 16px;
+  }
+}
+

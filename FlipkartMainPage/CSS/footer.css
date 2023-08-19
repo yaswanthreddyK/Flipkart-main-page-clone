@@ -1,0 +1,85 @@
+footer {
+    background-color: #172337;
+  
+  }
+  
+  .brand-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 4em;
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid grey;
+  }
+  
+  .brand-details h4 {
+    font-size: 0.8rem;
+    color: grey;
+    font-weight: 400;
+    margin: 1em 0;
+  }
+  
+  .brand-details a {
+    text-decoration: none;
+    display: block;
+    font-size: 0.8rem;
+    color: rgb(240, 240, 240);
+    margin-bottom: 0.8em;
+  }
+  
+  .brand-details a:hover{
+    text-decoration: underline;
+  }
+  
+  .mail {
+    border-left: 1px solid grey;
+    padding-left: 1.5em;
+  }
+  
+  .mail a,
+  .address a {
+    margin: 0.3em 0;
+  }
+  
+  .num {
+    color: #2874f0;
+  }
+  
+  .quick-links{
+    display: flex;
+    padding: 1.5em 5em;
+    justify-content: space-between;
+    font-size: 0.9rem;
+  }
+  
+  .q-link{
+    display: flex;
+    gap: 0.5em;
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+  
+  .copyright{
+    color: rgb(240, 240, 240);
+  }
+  
+  .info{
+    padding: 3em 1.5em;
+    margin-top: 3em;
+    background-color: white;
+  }
+  
+  .heading h4{
+    color: rgb(145, 145, 145);
+  }
+  
+  
+  .desc p{
+    font-size: 0.7rem;
+    line-height: 1.5;
+    color: rgb(138, 138, 138);
+    margin: 1em 0;
+  }
+  
+  
+  
+  
